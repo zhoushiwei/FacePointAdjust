@@ -35,6 +35,8 @@
 		53BC3ADB1AD1902500BCA203 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC3ADA1AD1902500BCA203 /* QuartzCore.framework */; };
 		53BC3ADE1AD190AD00BCA203 /* btn_camera_cancel_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BC3ADC1AD190AD00BCA203 /* btn_camera_cancel_b@2x.png */; };
 		53BC3ADF1AD190AD00BCA203 /* btn_camera_ok_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BC3ADD1AD190AD00BCA203 /* btn_camera_ok_a@2x.png */; };
+		53ED73671AD6429400248746 /* overhauser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53ED73641AD6429400248746 /* overhauser.cpp */; };
+		53ED73691AD642DC00248746 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 53ED73681AD642DC00248746 /* mask.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,10 @@
 		53BC3ADA1AD1902500BCA203 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		53BC3ADC1AD190AD00BCA203 /* btn_camera_cancel_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_camera_cancel_b@2x.png"; sourceTree = "<group>"; };
 		53BC3ADD1AD190AD00BCA203 /* btn_camera_ok_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_camera_ok_a@2x.png"; sourceTree = "<group>"; };
+		53ED73641AD6429400248746 /* overhauser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = overhauser.cpp; sourceTree = "<group>"; };
+		53ED73651AD6429400248746 /* overhauser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = overhauser.hpp; sourceTree = "<group>"; };
+		53ED73661AD6429400248746 /* vec3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
+		53ED73681AD642DC00248746 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 		53BC3A791AD166B000BCA203 /* FaceAdjust */ = {
 			isa = PBXGroup;
 			children = (
+				53ED73641AD6429400248746 /* overhauser.cpp */,
+				53ED73651AD6429400248746 /* overhauser.hpp */,
+				53ED73661AD6429400248746 /* vec3.hpp */,
 				53BC3A7E1AD166B000BCA203 /* AppDelegate.h */,
 				53BC3AD31AD17F7F00BCA203 /* UIImageCVMatConverter.mm */,
 				53BC3AD41AD17F7F00BCA203 /* UIImageCVMatConverter.h */,
@@ -150,6 +159,7 @@
 				53BC3ADD1AD190AD00BCA203 /* btn_camera_ok_a@2x.png */,
 				53BC3ABF1AD1705900BCA203 /* opencv2.framework */,
 				53BC3AA91AD16C4900BCA203 /* 1.jpg */,
+				53ED73681AD642DC00248746 /* mask.png */,
 				53BC3AAA1AD16C4900BCA203 /* 1.txt */,
 				53BC3AA71AD16AC000BCA203 /* makeup_adjusttipmodel.png */,
 				53BC3AA51AD16ABB00BCA203 /* blue_point@2x.png */,
@@ -221,6 +231,7 @@
 				53BC3A891AD166B000BCA203 /* Main.storyboard in Resources */,
 				53BC3AA81AD16AC000BCA203 /* makeup_adjusttipmodel.png in Resources */,
 				53BC3A8E1AD166B000BCA203 /* LaunchScreen.xib in Resources */,
+				53ED73691AD642DC00248746 /* mask.png in Resources */,
 				53BC3AA41AD16AB500BCA203 /* btn_notice.png in Resources */,
 				53BC3AAC1AD16C4900BCA203 /* 1.txt in Resources */,
 				53BC3ADF1AD190AD00BCA203 /* btn_camera_ok_a@2x.png in Resources */,
@@ -242,6 +253,7 @@
 				53BC3A861AD166B000BCA203 /* ViewController.mm in Sources */,
 				53BC3A7D1AD166B000BCA203 /* main.m in Sources */,
 				53BC3AD51AD17F7F00BCA203 /* UIImageCVMatConverter.mm in Sources */,
+				53ED73671AD6429400248746 /* overhauser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +402,7 @@
 				53BC3A9F1AD166B100BCA203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

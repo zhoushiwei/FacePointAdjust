@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56DE87C6-D1B6-4F12-81ED-6E12AAAE33D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FaceAdjust</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5805223E64DED0530B7427CEC3DFCBB0091C4F6</key>
+		<string>https://github.com/zhoushiwei/FacePointAdjust</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FaceAdjust.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5805223E64DED0530B7427CEC3DFCBB0091C4F6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhoushiwei/FacePointAdjust</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5805223E64DED0530B7427CEC3DFCBB0091C4F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5805223E64DED0530B7427CEC3DFCBB0091C4F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FacePointAdjust</string>
+		</dict>
+	</array>
+</dict>
+</plist>
